@@ -1,12 +1,11 @@
-import './App.css'
+import AdvancedCounter from "./components/AdvancedCounter/AdvancedCounter.jsx";
 
-function AdvancedCounter() {
-
+function App() {
   return (
-    <div>
-
+    <div className="App">
+      <AdvancedCounter />
     </div>
-  )
+  );
 }
 
-export default AdvancedCounter
+export default App;
